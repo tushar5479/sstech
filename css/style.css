@@ -1,0 +1,1170 @@
+
+.banner-mockup {
+    width: 119%;
+}
+.contact-icon {
+    width: 18%;
+
+}
+.service-image {
+    padding-top: 15px;
+    width: 25%;
+
+}
+
+/* Banner Section CSS Start */
+.banner{
+    background: url(../image/banner-bg.png);
+    background-size: cover;
+    background-position:  bottom right;
+    min-height: 828px;
+}
+
+.logo{
+     padding: 25px 0;
+     width: 35%;
+
+}
+.bar {
+    color: white !important;
+    font-family: poppins,sans-serif;
+    margin-left: 7px;
+}
+
+.btn-support
+{
+   border: 1px solid #fff !important;
+    padding: 10px 16px;
+    margin-left: 10px;
+    border-radius: 50px;
+    color: white;
+
+}
+.btn-support:hover{
+    background: white !important;
+    color: #756aff;
+    text-decoration: none;
+    transition:all 0.5s ease-in-out; 
+
+}
+
+
+
+
+.banner .hero-area{
+    padding: 25px 0;
+}
+
+.banner .hero-area h1{
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #f7f7f7;
+    font-weight: 700;
+    margin-top: 50px;
+    padding-right: 120px;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 2px;
+}
+
+.banner .hero-area p{
+    font-size: 26px;
+    color: #f7f7f7;
+    margin-top: 20px;
+    margin-bottom: 35px;
+
+}
+
+.banner .hero-area .btn{
+    text-decoration: none;
+    color: #f7f7f7;
+    border: 1px solid #f7f7f7;
+    padding: 10px 35px;
+    border-radius: 30px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.banner .hero-area .btn-cta{
+    color: #756aff;
+    background: #f7f7f7;
+}
+
+.banner .hero-area .btn-cta:hover{
+    color: #574df1;
+    font-weight: 700;
+    box-shadow: -5px -5px 7px 3px #1a8cd4;
+    transition: 0.3s cubic-bezier(0.4, 0, 1, 1);
+}
+
+.banner .hero-area .btn-ghost:hover{
+    background: #f7f7f7;
+    transition: .5s ease-in-out;
+    color: #574df1;
+    font-weight: 700;
+    box-shadow: -5px -5px 7px 3px #1a8cd4;
+}
+
+.banner .navbar-menu .navbar-item-btn:hover{
+    background: #f7f7f7;
+    transition: .5s ease-in-out;
+    color: #574df1;
+    font-weight: 700;
+    box-shadow: -5px -5px 7px 3px #1a8cd4;
+}
+
+
+/* Banner Section CSS End */
+
+/* Service CSS Start */
+.service{}
+
+.webdesign {
+        box-shadow: 2px 2px 2px 3px #eee;
+        margin-bottom: 70px;
+
+        }
+
+.service span {
+    color: #756aff;
+}
+
+.pera2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    
+}
+
+.service h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+
+.service p{
+    font-size: 20px;
+    color: #3f3f3f;
+        margin-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.service .service-box{
+}
+
+.service .service-box .service-item{
+    margin: 10px;
+}
+
+.service .service-box .service-item img{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.service .service-box .service-item .service-item-head{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.service .service-box .service-item .service-item-detail{
+    font-size: 14px;
+    margin-bottom: 12px;
+    display: block;
+    padding: 0 36px;
+}
+
+.service .service-box .service-item span{
+    display: block;
+}
+/* Service CSS End */
+
+/* Lead CSS Start */
+.lead{
+    background: url(../image/lead-img-bg.png);
+    height: 397px;
+    background-size: cover;
+    background-position: center;
+}
+
+.lead .lead-box{
+    width: 50%;
+    float: right;
+}
+
+.lead .lead-box h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.lead .lead-box p{
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+
+.lead .lead-box .btn-cta{
+    color: #f7f7f7; 
+    background-image:linear-gradient(45deg, #19a5fc 20%,#5d4cfd 100%,transparent) ; 
+    text-decoration: none;
+    padding: 10px 35px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 14px; 
+    
+    
+}
+
+.lead .lead-box .btn-cta:hover{
+    transition: 0.5s ease-in-out;
+    background-image:linear-gradient(45deg, #5d4cfd 20%,#19a5fc 100%,transparent);
+}
+
+
+
+
+/* Lead CSS End */
+
+/* Project CSS Start */
+.project{
+    background: url(../image/bg-map.png);
+    background-position: center;
+    background-size: cover;
+    height: 319px;
+}
+
+.project h2{
+    font-size: 36px;
+    margin-bottom: 60px;
+}
+
+.project .number{
+    text-align: center;
+    display: block;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.project p{
+    font-size: 20px;
+    color: #3f3f3f;
+    padding-bottom: 10px;
+}
+
+.project .project-hover:hover{
+    background: #f6fbff;
+     padding: 0 15px;
+    box-shadow: 0px 5px 0px 0px #f5f5f5;
+    transition: all 0.3s ease-in-out;
+}
+/* Project CSS End */
+
+/* Porfoilo CSS Start */
+   .portfolio{
+        padding: 80px 0;
+    }
+    .portfolio-nav{
+        margin-bottom: 90px;
+    }
+    .portfolio-navmenu{
+
+        border: 1px solid #756aff;
+        width: 62%;
+        display: flex;
+        border-radius: 30px;
+        margin: 0 auto;
+        margin-top: 70px;
+        overflow: hidden;
+        padding: 0;
+    }
+    .portfolio-navitem{
+        list-style: none;
+        padding: 15px 33px;
+        border-radius: 30px;
+        float: left;
+    }
+    .portfolio-navlink{
+        text-decoration: none !important;
+        text-transform: uppercase;
+        color: #6f6f6f;
+        font-family: 'Poppins', sans-serif;
+    }
+    .portfolio-navitem:hover{
+        background: #756aff;
+        border-radius: 30px;
+    }
+    .portfolio-navitem:hover .portfolio-navlink{
+        color: #fff;
+    }
+
+       .img1{
+        width: 100%;
+    }
+    .hover{
+        position: absolute;
+        width: 100%;
+        height: 99%;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(113deg,#426ffd 20%,#14acfb 61%);
+        opacity: 0;
+    }
+    .zero7{
+        width: 100%;
+        position: relative;
+    }
+    .web{
+        position: absolute;
+        top: 87%;
+        left: 5%;
+        font-size: 18px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        opacity: 0;
+    }
+    .btn-meximus{
+        position: absolute;
+        top: 43%;
+        left: 35%;
+        opacity: 0;
+    }
+    .btn-add{
+        position: absolute;
+        top: 43%;
+        left: 52%;
+        opacity: 0;
+    }
+    .zero7:hover .hover{
+        transition: all .5s ease-in-out;
+        opacity: .7;
+    }
+    .zero7:hover .web{
+        opacity: 1;
+        transition: all .5s ease-in-out;
+    }
+    .zero7:hover .btn-meximus{
+        opacity: 1;
+        transition: all .5s ease-in-out;
+    }
+    .zero7:hover .btn-add{
+        opacity: 1;
+        transition: all .5s ease-in-out;
+    }
+    .hero7{
+        box-sizing: border-box;
+        padding: 10px;
+    }
+/* Porfolio CSS End */
+
+/* Work CSS Start */
+.text-center {
+    text-align: center;
+}
+.invite {
+    height: 450px;
+    background-image: url(../image/work-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+.invite h3 {
+    color: #fff;
+    margin-top: 4%;
+    margin-left: 38%;
+}
+.invite p {
+    color: #fff;
+    padding: 0 175px;
+    margin-top: 20px;
+}
+.invite-box {
+    display: block;
+    margin-top: 6%;
+    width: 50%;
+    border: 1px;
+    border-radius: 20px;
+    margin-left: 376px;
+}
+.invite-box .form-control-1 {
+    text-transform: capitalize;
+    display: inline-block !important;
+    width: 90%;
+    margin-bottom: 3%;
+    border: unset;
+    border-radius: 20px;
+    padding-left: 4%;
+    padding: 2% 4%;
+}
+.invite-box .btn-submit {
+ display: block;
+    padding: 1.3% 5.7%;
+    border-radius: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    background: linear-gradient(45deg, #ee4242, #5f14e4);
+    border: 0px solid #ffffff;
+    width: 40%;
+    margin-left: 31%;
+    transition: all 0.9s ease-in-out;
+    margin-top: 0.3%;
+}
+.invite-box .btn-submit:hover {
+    background: linear-gradient(45deg, #6c63ff, #EE4241);
+    border: 0px solid #6c63ff;
+}
+/* Work CSS End */
+
+/* Client CSS Start */
+.client{}
+
+.client h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.client p{
+    
+    width: 50%;
+    color: #3f3f3f;
+    margin-left: 25%;
+    margin-bottom: 30px;
+}
+
+.client .person{
+    margin: 10px;
+    box-shadow: 0px 8px 0px 0px #f8f8f8;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.person .person-details{
+    margin: 0;
+    display: inline;
+}
+
+.client .person img{
+    width: 100%;
+}
+
+.client .person h3{
+    margin-bottom: 5px;
+}
+
+.client .person .star{
+    margin-bottom: 5px;
+}
+
+.client .person .star .fa{
+    color: #7b99fe;
+}
+
+.client .person .client-link{
+    margin-bottom: 10px;
+}
+
+.client .person .client-link .fa{
+    color: #3f3f3f;
+}
+/* Client CSS End */
+
+/* Contact CSS Start */
+.contact{
+    padding: 80px 0px;
+}
+
+.contact .contact-head h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.contact .contact-head p{
+    color: #3f3f3f;
+    padding: 0 280px;
+    margin-bottom: 30px;
+}
+
+.contact .contact-hover:hover{
+    background: #eef9ff;
+    box-shadow: 0px 0px 5px 5px #f7f7f7;
+    transition: 0.3s ease-in-out;
+}
+
+.contact .contact-hover{
+    margin: 10px 20px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.contact .contact-hover .contact-details{}
+
+.contact form{
+}
+
+.contact form .form-control1{
+    display: inline-block;
+    width: 40%;
+    padding: 11px;
+    margin: 10px;
+    border: none;
+    background: #f7f7f7;
+}
+
+.contact form .form-control2{
+    display: block;
+    width: 89%;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    background: #f7f7f7;
+}
+
+.contact form .btn-send{
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px 80px;
+    border-radius: 20px;
+    color: #fff;
+    background: linear-gradient(45deg, #19a5fc 25%, #397bfd 50%,#5d4cfd 100%, transparent);
+}
+
+.contact form .btn-send:hover{
+    background: linear-gradient(45deg, #5d4cfd 25%,#397bfd 100%, transparent);
+}
+
+
+
+
+.image-fluid {
+    max-width: 100%
+    height: auto;
+}
+
+
+
+
+
+
+
+/* Contact CSS End */
+
+/* Footer CSS Start */
+footer{
+    padding: 30px 0;
+    float: left;
+    width: 100%;
+    background-image: linear-gradient(to right, #505dfd 20%,#3a7bfd 60%,#0bb8fb 100%, transparent);
+}
+
+footer p{
+    color: #fff;
+    font-size: 14px;
+}
+
+footer .fa{
+    margin: 0 10px;
+    color: #fff;
+    font-size: 20px;
+}
+/*Footer CSS ENd*/
+
+
+
+
+
+    /*RESPONSIVE CSS START*/
+
+
+ 
+
+@media (max-width: 575.98px) 
+{
+
+img {
+    
+    width: 98%;
+}
+.service-image {
+    padding-top: 15px;
+    width: 25%;
+
+}
+
+.banner-mockup {
+    width: 98%;
+}
+
+.contact-icon {
+    width: 18%;
+}
+
+.banner .hero-area .btn {
+    
+    font-size: 5px;
+}
+
+.banner .hero-area p {
+    font-size: 14px;
+}
+
+.banner .hero-area h1 {
+    font-size: 27px;
+        margin-top: -5px;
+    }
+
+
+    .lead .lead-box h2 {
+    
+    margin-bottom: 15px;
+    padding-top: 30px;
+}
+
+.lead .lead-box {
+    width: 95%;
+}
+.lead .lead-box p {
+    margin-bottom: 20px;
+    padding-right: 0px;
+}
+.lead .lead-box p {
+    margin-bottom: 20px;
+    padding-right: 0px;
+}
+.lead {
+   
+    height: 602px;
+   
+  
+}
+
+
+.project {
+    height: 726px;
+}
+
+.portfolio-navmenu {
+    border: 1px solid #756aff;
+    width: 60%;
+    display: block;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-top: 70px;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+}
+.portfolio-navitem {
+    list-style: none;
+    padding: 4px 4px;
+    border-radius: 30px;
+    width: 100%;
+}
+.invite {
+    height: 275px;
+    }
+    .invite h3 {
+    color: #fff;
+    margin-top: 4%;
+    margin-left: 32%;
+    
+}
+
+    .invite p {
+    padding: 0 4%;
+    margin-top: 2%;
+    font-size: 12px;
+    }
+    .invite-box {
+    margin-top: 0%;
+    width: 100%;
+    border: 1px;
+    background-color: unset;
+    margin-left: 8%;
+    }
+    .invite-box .form-control-1 {
+    font-size: 12px;
+    width: 65%;
+    margin-bottom: 2%;
+    margin-left: 11px;
+    }
+    .invite-box .btn-submit {
+    padding: 1.3% 5.7%;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    background: linear-gradient(45deg, #ee4242, #5f14e4);
+    border: unset;
+    margin-left: 106px;
+    font-size: 12px;
+    margin-top: 1%;
+    }
+    .invite-box .btn-submit:hover {
+    border: unset;
+    background: linear-gradient(45deg, #6c63ff, #EE4241);
+    }
+    .invite-box .form-control {
+    font-size: 12px;
+    width: 45%;
+    }
+.client h2 {
+    
+    margin-bottom: 30px;
+    margin-top: 37px;
+}
+.client .person img {
+    width: 85%;
+}
+.client .person {
+    margin: -10px;
+        padding: 20px;
+
+}
+
+
+    .client p {
+    color: #3f3f3f;
+    padding: 4% 5%;
+    width: unset;
+    margin-left: unset;
+}
+.client {
+    height: 1020px;
+}
+
+.work .work-input .work-input-control1 {
+   
+    padding: 10px 72px;}
+
+ .work .work-input .work-input-control2 {
+    
+    padding: 10px 72px;}
+
+
+  .project h2 {
+    font-size: 36px;
+    margin-bottom: -29px;
+    height: 243px;
+    margin-top: 45px;
+}
+
+.project .number {
+    padding: 6px;
+}
+.btn-support {
+    border: 1px solid #fff !important;
+    padding: 6px 11px;
+    margin-left: -5px;
+    border-radius: 42px;
+    color: white;
+}
+
+.contact .contact-head p {
+    color: #3f3f3f;
+    padding: 0px 81px;
+    margin-bottom: 35px;
+}
+
+
+
+.image-fluid {
+    margin-top: 17px;
+    width: 60%;
+    margin-left: -20px;
+}
+
+.contact form .form-control1 {
+    display: inline-block;
+    width: 223%;
+    padding: 11px;
+    margin: 10px;
+    border: none;
+    background: #f7f7f7;
+    margin-left: -7px;
+}
+.contact form .form-control2 {
+    display: block;
+    width: 224%;
+    margin: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: -7px;
+    
+}
+.contact form .btn-send {  
+  margin-left: 35px;
+}
+
+.h3, h3 {
+    font-size: 0.75rem;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+
+.contact form .form-control2 {
+    display: block;
+    width: 207%;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    background: #f7f7f7;
+}
+.service-image {
+    padding-top: 15px;
+    width: 25%;
+
+}
+
+.banner-mockup {
+    width: 98%;
+}
+
+.contact-icon {
+    width: 18%;
+}
+
+.banner .hero-area .btn {
+    font-size: 16px;
+}
+
+.banner .hero-area p {
+    font-size: 14px;
+}
+
+.banner .hero-area h1 {
+    font-size: 27px;
+        margin-top: -5px;
+    }
+
+
+    .lead .lead-box h2 {
+    
+    margin-bottom: 15px;
+    padding-top: 30px;
+}
+
+.lead .lead-box {
+    width: 95%;
+}
+.lead .lead-box p {
+    margin-bottom: 20px;
+    padding-right: 0px;
+}
+.lead .lead-box p {
+    margin-bottom: 20px;
+    padding-right: 0px;
+}
+.lead {
+   
+    height: 602px;
+   
+  
+}
+
+
+.project {
+    height: 726px;
+}
+
+.portfolio-navmenu {
+    border: 1px solid #756aff;
+    width: 60%;
+    display: block;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-top: 70px;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+}
+.portfolio-navitem {
+    list-style: none;
+    padding: 4px 4px;
+    border-radius: 30px;
+    width: 100%;
+}
+.invite {
+    height: 275px;
+    }
+ .invite h3 {
+    text-transform: uppercase;
+    margin-top: 8%;
+    margin-left: 37%;
+}
+    .invite p {
+    padding: 0 4%;
+    margin-top: 2%;
+    font-size: 12px;
+    }
+   .invite-box {
+    margin-top: 0%;
+    width: 100%;
+    border: 1px;
+    background-color: unset;
+    margin-left: 35%;
+}
+    .invite-box .form-control-1 {
+    font-size: 12px;
+    width: 65%;
+    margin-bottom: 2%;
+    margin-left: 11px;
+    }
+    .invite-box .btn-submit {
+    padding: 1.3% 5.7%;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    background: linear-gradient(45deg, #ee4242, #5f14e4);
+    border: unset;
+    margin-left: 106px;
+    font-size: 12px;
+    margin-top: 1%;
+    }
+    .invite-box .btn-submit:hover {
+    border: unset;
+    background: linear-gradient(45deg, #6c63ff, #EE4241);
+    }
+    .invite-box .form-control {
+    font-size: 12px;
+    width: 45%;
+    }
+.client h2 {
+    
+    margin-bottom: 30px;
+    margin-top: 37px;
+}
+.client .person img {
+    width: 85%;
+}
+.client .person {
+    margin: -10px;
+        padding: 20px;
+
+}
+
+
+    .client p {
+    color: #3f3f3f;
+    padding: 4% 5%;
+    width: unset;
+    margin-left: unset;
+}
+.client {
+    height: 1020px;
+}
+
+.work .work-input .work-input-control1 {
+   
+    padding: 10px 72px;}
+
+ .work .work-input .work-input-control2 {
+    
+    padding: 10px 72px;}
+
+
+  .project h2 {
+    font-size: 36px;
+    margin-bottom: -29px;
+    height: 243px;
+    margin-top: 45px;
+}
+
+.project .number {
+    padding: 6px;
+}
+.btn-support {
+    border: 1px solid #fff !important;
+    padding: 6px 11px;
+    margin-left: -5px;
+    border-radius: 42px;
+    color: white;
+}
+
+.contact .contact-head p {
+    color: #3f3f3f;
+    padding: 0px 81px;
+    margin-bottom: 35px;
+}
+
+
+
+.image-fluid {
+    margin-top: 17px;
+    width: 60%;
+  margin-left: -10px;
+}
+
+.contact form .form-control1 {
+    display: inline-block;
+    width: 223%;
+    padding: 11px;
+    margin: 10px;
+    border: none;
+    background: #f7f7f7;
+    margin-left: -7px;
+}
+.contact form .form-control2 {
+    display: block;
+    width: 224%;
+    margin: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: -7px;
+    
+}
+.contact form .btn-send {  
+  margin-left: 35px;
+}
+
+.h3, h3 {
+    font-size: 0.75rem;
+}
+
+
+
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+.banner .hero-area h1 {
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #f7f7f7;
+    font-weight: 700;
+    margin-top: 50px;
+    padding-right: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 2px;
+}
+.banner .hero-area p {
+    font-size: 18px;
+    color: #f7f7f7;
+    margin-top: 20px;
+    margin-bottom: 35px;.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 7px;
+}
+}
+.banner .hero-area .btn-cta {
+    color: #756aff;
+    background: #f7f7f7;
+    margin-bottom: 8px;
+}
+.lead {
+  
+    height: 550px;
+}
+.project {
+   
+    height: 700px;
+}
+.portfolio-navitem {
+  
+    padding: 15px 9px;
+}
+.invite {
+    height: 378px;
+}
+.invite h3 {
+    color: #fff;
+    margin-top: 4%;
+    margin-left: 31%;
+}
+.invite-box {
+    
+    margin-left: 219px;
+}
+.contact .contact-hover {
+    margin: 10px 1px;
+    margin-bottom: 50px;
+    padding: 2px;
+}
+.contact .contact-head p {
+    color: #3f3f3f;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+.invite-box {
+ 
+    margin-left: 331px;
+}
+.banner-mockup {
+    width: 103%;
+    margin-top: 101px;
+}
+.client h2 {
+    
+    margin-top: 20px;
+}
+.portfolio-navitem {
+    list-style: none;
+    padding: 15px 21.6px;
+    border-radius: 30px;
+    float: left;
+}
+
+ }
+
+
+@media (min-width: 1200px) { 
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 7px;
+}
+
+.project h2 {
+    font-size: 36px;
+    margin-bottom: 60px;
+    margin-top: 15px;
+}
+.invite h3 {
+    color: #fff;
+    margin-top: 4%;
+    margin-left: 35%;
+}
+
+
+ }
+
